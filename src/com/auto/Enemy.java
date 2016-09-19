@@ -17,6 +17,7 @@ public class Enemy {
     public int getStrength() {
         Random random = new Random();
         return random.nextInt(strength);
+
     }
 
     public int getPower() {
